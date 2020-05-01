@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $main-black;
+  padding-bottom: 2rem;
+}
+
+b {
+  font-weight: 500;
+}
