@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +13,12 @@ html {
 
 body {
   font-weight: 400;
-  font-family: 'Muli', sans-serif;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 1.7;
   color: $main-black;
   padding-bottom: 2rem;
+  background-color: $main-red;
 }
 
 b {

@@ -1,0 +1,31 @@
+.weather-search {
+  text-align: center;
+  margin-top: 2rem;
+
+  &__form {
+    width: 23.5%;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  &__input {
+    border: none;
+    border-bottom: solid 2px $main-red;
+    width: 100%;
+  }
+
+  &__submit {
+   display: block;
+   margin: 0 auto;
+   background-color: $main-red;
+   border: none;
+   padding: 1.5rem 2rem;
+   line-height: 0;
+   border-radius: 3px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   color: white;
+   width: 100%; 
+   margin-top: 1rem;
+  }
+}

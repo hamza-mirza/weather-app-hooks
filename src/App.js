@@ -1,8 +1,13 @@
 import React from "react"
+
+import Wrapper from "./components/Wrapper"
+import Main from "./components/Main"
  
 const App = () => {
   return (
-    <h1>What up 😎</h1>
+    <Wrapper>
+      <Main/>
+    </Wrapper>
   )
 }
 
