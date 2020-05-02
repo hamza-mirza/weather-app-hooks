@@ -3,15 +3,18 @@
   &__form {
     text-align: center;
     margin-top: 3rem;
+    margin-bottom: 5rem;
   }
 
   &__input {
     display: inline-block;
-    border: transparent;
+    border: solid 2px transparent;
     background-color: rgba($colour-2, 0.1);
     padding: 0.5rem 3rem;
     border-radius: 2px;
     margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
 
     &:focus {
       outline: none;
@@ -23,21 +26,23 @@
    display: inline-block;
    text-align: center;
    background-color: transparent;
-   border: solid 2px $colour-2;
-   border-radius: 50%;
-   font-size: 2.5rem;
-   height: 35px;
-   width: 35px;
+   font-size: 3rem;
+   height: 30px;
+   width: 30px;
    position: relative;
-   top: 1rem;
+   top: 0.9rem;
+   margin-left: -6rem;
   }
 
   &__button {
-    padding: 1.5rem;
+    padding: 1.2rem;
     color: $colour-2;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    &:focus {
+      outline: none;
+    }
   }
 }
