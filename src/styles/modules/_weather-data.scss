@@ -11,10 +11,19 @@
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    @include respond(tablet) {
+      margin-top: 2rem;
+    }
+    @include respond(largePhone) {
+      margin-top: 4rem;
+    }
   }
 
   &__property {
     margin: 0 3rem;
+    @include respond(smallPhone) {
+      margin: 0 2rem;
+    }
   }
 
   &__title {
@@ -28,5 +37,8 @@
     color: $colour-2;
     font-size: 4rem;
     line-height: 0.6;
+    @include respond(smallPhone) {
+      font-size: 3rem;
+    }
   }
 }

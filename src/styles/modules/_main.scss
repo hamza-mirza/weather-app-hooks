@@ -9,4 +9,16 @@
   transform: translate(-50%, -50%);
   border-radius: 3px;
   overflow: hidden;
+  @include respond(largeTablet) {
+    height: 50vh;
+    width: 80%;
+  }
+  @include respond(tablet) {
+    height: 50vh;
+    width: 95%;
+  }
+  @include respond(largePhone) {
+    height: 100vh;
+    width: 100%;
+  }
 }
