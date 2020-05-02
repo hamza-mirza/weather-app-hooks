@@ -1,31 +1,43 @@
 .weather-search {
-  text-align: center;
-  margin-top: 2rem;
 
   &__form {
-    width: 23.5%;
-    margin: 0 auto;
-    margin-top: 4rem;
+    text-align: center;
+    margin-top: 3rem;
   }
 
   &__input {
-    border: none;
-    border-bottom: solid 2px $main-red;
-    width: 100%;
+    display: inline-block;
+    border: transparent;
+    background-color: rgba($colour-2, 0.1);
+    padding: 0.5rem 3rem;
+    border-radius: 2px;
+    margin-right: 2rem;
+
+    &:focus {
+      outline: none;
+      border-bottom: solid 2px $colour-2;
+    }
   }
 
   &__submit {
-   display: block;
-   margin: 0 auto;
-   background-color: $main-red;
-   border: none;
-   padding: 1.5rem 2rem;
-   line-height: 0;
-   border-radius: 3px;
-   font-weight: 600;
-   letter-spacing: 1px;
-   color: white;
-   width: 100%; 
-   margin-top: 1rem;
+   display: inline-block;
+   text-align: center;
+   background-color: transparent;
+   border: solid 2px $colour-2;
+   border-radius: 50%;
+   font-size: 2.5rem;
+   height: 35px;
+   width: 35px;
+   position: relative;
+   top: 1rem;
+  }
+
+  &__button {
+    padding: 1.5rem;
+    color: $colour-2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

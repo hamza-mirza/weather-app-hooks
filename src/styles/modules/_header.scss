@@ -1,11 +1,11 @@
 .header {
-  width: 100%;
   text-align: center;
-  border-bottom: solid 2px $dark-semi;
-  padding: 2rem 0;
+  border: transparent;
+  background-color: $colour-2;
+  padding: 2rem 3rem;
 
   &__title {
     font-weight: 600;
-    color: $text-color;
+    color: white;
   }
 }

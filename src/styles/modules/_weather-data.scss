@@ -1,0 +1,32 @@
+.weather-data {
+  text-align: center;
+  margin-top: 3rem;
+
+  &__city {
+    color: $colour-2;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  &__property {
+    margin: 0 3rem;
+  }
+
+  &__title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  &__value {
+    color: $colour-2;
+    font-size: 4rem;
+    line-height: 0.6;
+  }
+}

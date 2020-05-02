@@ -1,6 +1,6 @@
 import React from "react"
 
-import Wrapper from "./components/Wrapper"
+import Wrapper from "./components/Layout/Wrapper"
 import Main from "./components/Main"
  
 const App = () => {
