@@ -1,9 +1,9 @@
 import React from "react"
 
-const Tagline = props => (
+const Content = props => (
   <div className="content">
     {props.children}
   </div>
 )
 
-export default Tagline
+export default Content
